@@ -1,0 +1,15 @@
+str1='WE, THE PEOPLE OF INDIA,'
+str2='having solemnly resolved to constitute India into a SOVEREIGN, !'
+str3='SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC'
+str4='and to secure to all its citizens'
+pharses=[str1,str2,str3,str4]
+for i in range(4):
+    if i==0:
+        print(pharses[i])
+        continue
+    for j in range(i):
+        if i==3:
+            print("    ",end='')
+        else:
+            print("     ",end='')
+    print((pharses[i]))
