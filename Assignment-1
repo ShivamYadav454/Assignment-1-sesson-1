@@ -1,1 +1,10 @@
-
+n,sum=5,0
+a=[]
+print("Enter 5 integers")
+for i in range(5):
+  print("Enter ",i+1," th integer")
+  x=int(input())
+  a.append(x)
+for i in a:
+  sum=sum+i
+print("Sum of all the given integers is",sum)
